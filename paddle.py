@@ -8,7 +8,7 @@ class Paddle(Turtle):
         self.shapesize(stretch_wid=5, stretch_len=1)
         self.setpos(position)
     def up(self):
-        new_y = self.ycor() + 40  # Move 20 pixels up
+        new_y = self.ycor() + 40 
         self.goto(self.xcor(), new_y)
 
     def down(self):
